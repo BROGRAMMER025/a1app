@@ -9,6 +9,7 @@ import Customers from "./Customers";
 import Drivers from "./Drivers";
 import DashboardLayout from "./DashboardLayout";
 import FetchData from "./FetchData";
+import UsData from "./UsData";
 
 import { useState, useEffect } from "react";
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/customers" element={<Customers />} />
           <Route path="/drivers" element={<Drivers />} />
           <Route path="/fetchdata" element={<FetchData />} />
+          <Route path="/usdata" element={<UsData />} />
           
         </Route>
 

@@ -45,9 +45,14 @@ const SideBar = () => {
           {isOpen && "Drivers"}
         </Link>
 
-        <Link to ="fetchdata" style={location.pathname === "/fetchdata" ? styles.activeLink : styles.link}>
+        <Link to ="/fetchdata" style={location.pathname === "/fetchdata" ? styles.activeLink : styles.link}>
         <FaClipboardList style={styles.icon} />
         {isOpen && "FetchData"}
+        </Link>
+
+        <Link to="/usdata" style={location.pathname ==="/usdata" ? styles.activeLink : styles.link}>
+        <FaClipboardList style={styles.icon} />
+        {isOpen && "USData"}
         </Link>
         
           
