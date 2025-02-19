@@ -1,0 +1,25 @@
+const styles  {
+    dashboardContainer: {
+      textAlign: "center",
+      marginTop: "20px",
+      padding: "20px",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+    }
+
+    heading: {
+      marginBottom: "20px",
+    }
+
+    card {
+      width: "80%", /* Makes sure the card is not full width */
+      maxWidth: "600px",
+      backgroundColor: "#f9f9f9",
+      padding: "20px",
+      borderRadius: "10px",
+      boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+      marginBottom: "20px",
+    }
+  };
+  

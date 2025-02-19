@@ -1,0 +1,35 @@
+
+
+  
+  /* Card Styling */
+  .about-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  /* Icon Styling */
+  .icon {
+    color: #2c3e50;
+    font-size: 22px;
+  }
+  
