@@ -4,7 +4,7 @@ import React from "react";
 import SideBar from "./SideBar";
 import OperatingCashTable from "./OperatingCashTable";
 
-
+import UsData from "./UsData";
 
 const Dashboard = () => {
   return (
@@ -12,10 +12,10 @@ const Dashboard = () => {
       
       
       <SideBar/>
+
+      <UsData/>
       
-      
-     <OperatingCashTable/>
-    
+      <OperatingCashTable/>
     </div>
   );
 };

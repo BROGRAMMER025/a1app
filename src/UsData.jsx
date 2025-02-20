@@ -31,26 +31,26 @@ function UsData() {
         backgroundColor: "rgba(0, 123, 255, 0.7)", // Blue bars
         borderColor: "rgba(0, 123, 255, 1)", // Darker blue border
         borderWidth: 2,
-        barThickness: 50, // ✅ Larger bars for better visibility
+        barThickness: 50, 
       },
     ],
   };
 
   const options = {
     responsive: true,
-    maintainAspectRatio: false, // ✅ Allows custom height
+    maintainAspectRatio: false, 
     plugins: {
-      legend: { display: false }, // ✅ Hides legend (only one dataset)
+      legend: { display: false }, 
       title: { display: true, text: "U.S. Population Over the Years", font: { size: 20 } },
     },
     scales: {
-      x: { title: { display: true, text: "Year", font: { size: 16 } } },
-      y: { title: { display: true, text: "Population", font: { size: 16 } }, beginAtZero: false },
+      x: { title: { display: true, text: "Year", font: { size: 12 } } },
+      y: { title: { display: true, text: "Population", font: { size: 12 } }, beginAtZero: false },
     },
   };
 
   return (
-    <div style={{ width: "95%", height: "600px", margin: "auto", textAlign: "center", padding: "20px" }}>
+    <div style={{ width: "70%", height: "370px", margin: "auto", textAlign: "center", padding: "20px" }}>
       <h2>U.S. Population Data</h2>
       {data.length > 0 ? <Bar data={chartData} options={options} /> : <p>Loading data...</p>}
     </div>
