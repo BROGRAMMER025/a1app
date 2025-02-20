@@ -44,7 +44,7 @@ function FetchData() {
         }}
       >
         <thead>
-          <tr style={{ background: "#f2f2f2" }}>
+          <tr style={{ background: "rgba(0, 123, 255, 0.7)" }}>
             <th>ID</th>
             <th>Title</th>
             <th>Completed?</th>
